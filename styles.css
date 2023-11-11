@@ -1,118 +1,237 @@
-.mac-book-pro-16-1 {
-  background-color: var(--black);
+.portfolio {
+  width: 1920px;
+  height: 2893px;
+  background-color: #101010;
   overflow: hidden;
-  position: relative;
 }
-.frame-1 {
-  padding: 107px 0 0;
-  position: absolute;
-  right: -73px;
+
+.portfolio .main-frame {
+  position: relative;
+  width: 1980px;
+  height: 3043px;
   top: -125px;
+  left: -31px;
+  overflow-y: scroll;
 }
-.background {
-  margin-left: -519px;
-  padding: 0 430px 0 493px;
+
+.portfolio .overlap {
   position: relative;
+  width: 2935px;
+  height: 2459px;
+  top: 107px;
+  left: -519px;
 }
-.flex-wrapper-one {
-  background-size: 100% 100%;
-  background-position: center;
-  background-image: url("https://static.overlay-tech.com/assets/db043b4d-61fa-4148-b8e7-9359e36c63fb.png");
-  padding: 0 98px 945px 810px;
+
+.portfolio .background {
+  position: absolute;
+  width: 2935px;
+  height: 2051px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .overlap-group {
   position: relative;
+  height: 2051px;
 }
-.ellipse-1 {
+
+.portfolio .texture {
+  position: absolute;
+  width: 2012px;
+  height: 2051px;
+  top: 0;
+  left: 493px;
+  mix-blend-mode: overlay;
+}
+
+.portfolio .ellipse {
   width: 1104px;
   height: 1106px;
-  background: linear-gradient(
-    180deg,
-    var(--transparent-indigo) 0%,
-    var(--transparent-indigo-2) 100%
-  );
-  border-radius: 50%;
+  top: 0;
+  left: 1303px;
+  border-radius: 552px/553px;
   opacity: 0.5;
-  position: relative;
+  position: absolute;
   filter: blur(200px);
+  background: linear-gradient(180deg, rgba(96, 27, 153, 0.75) 0%, rgba(96, 27, 153, 0) 100%);
 }
-.ellipse-2 {
+
+.portfolio .div {
   width: 931px;
   height: 933px;
-  background: linear-gradient(
-    180deg,
-    var(--transparent-indigo) 0%,
-    var(--transparent-indigo-2) 100%
-  );
-  border-radius: 50%;
-  opacity: 0.7;
-  position: absolute;
-  left: 198px;
   top: 310px;
-  filter: blur(200px);
-}
-.ellipse-2-two {
-  width: 931px;
-  height: 933px;
-  background: linear-gradient(
-    180deg,
-    var(--transparent-indigo) 0%,
-    var(--transparent-indigo-2) 100%
-  );
-  border-radius: 50%;
+  left: 691px;
+  border-radius: 465.5px/466.5px;
+  transform: rotate(-180deg);
   opacity: 0.7;
   position: absolute;
-  right: 0;
+  filter: blur(200px);
+  background: linear-gradient(180deg, rgba(96, 27, 153, 0.75) 0%, rgba(96, 27, 153, 0) 100%);
+}
+
+.portfolio .ellipse-2 {
+  position: absolute;
+  width: 931px;
+  height: 933px;
   top: 605px;
+  left: 2004px;
+  border-radius: 465.5px/466.5px;
+  transform: rotate(-180deg);
   filter: blur(200px);
+  background: linear-gradient(180deg, rgba(96, 27, 153, 0.75) 0%, rgba(96, 27, 153, 0) 100%);
+  opacity: 0.7;
 }
-.ellipse-3 {
+
+.portfolio .ellipse-3 {
   width: 931px;
   height: 933px;
-  background: linear-gradient(
-    180deg,
-    var(--transparent-indigo) 0%,
-    var(--transparent-indigo-2) 100%
-  );
-  border-radius: 50%;
+  top: 49px;
+  left: 0;
+  border-radius: 465.5px/466.5px;
+  transform: rotate(-180deg);
   opacity: 0.7;
   position: absolute;
-  left: 0;
-  top: 49px;
   filter: blur(200px);
+  background: linear-gradient(180deg, rgba(96, 27, 153, 0.75) 0%, rgba(96, 27, 153, 0) 100%);
 }
-.bio {
-  background-color: rgba(41, 37, 55, 0.6);
-  border-radius: 50px;
-  padding: 38px 55px 66px 59px;
-  box-shadow: -10px 10px 30px 0 rgba(0, 0, 0, 0.15);
+
+.portfolio .bio {
   position: absolute;
-  right: 157px;
-  top: 185px;
-  backdrop-filter: blur(40px);
+  width: 1289px;
+  height: 386px;
+  top: 78px;
+  left: 1097px;
+  background-image: url(./img/bio-bg.svg);
+  background-size: 100% 100%;
 }
-.bio-text {
-  height: 282px;
+
+.portfolio .mask-group {
+  position: absolute;
   width: 1175px;
-  color: var(--lavender);
-  display: flex;
-  font-family: var(--source-sans-pro-42-bold-family);
-  font-size: var(--source-sans-pro-42-bold-size);
-  font-weight: var(--source-sans-pro-42-bold-weight);
-  line-height: var(--source-sans-pro-42-bold-line-height);
+  height: 282px;
+  top: 38px;
+  left: 59px;
 }
-.profile {
-  background-color: rgba(41, 37, 55, 0.6);
-  border-radius: 50px;
-  padding: 16px 13px 16px 12px;
-  box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.15);
+
+.portfolio .profile {
   position: absolute;
-  left: 110px;
-  top: 185px;
-  backdrop-filter: blur(40px);
+  width: 386px;
+  height: 386px;
+  top: 78px;
+  left: 629px;
 }
-.avatar {
+
+.portfolio .overlap-2 {
+  position: relative;
+  height: 386px;
+  border-radius: 50px;
+}
+
+.portfolio .avatar-bg {
+  position: absolute;
+  width: 386px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  background-color: #292537;
+  border-radius: 50px;
+  box-shadow: -10px 10px 30px 10px #00000040;
+  backdrop-filter: blur(40px) brightness(100%);
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  opacity: 0.6;
+}
+
+.portfolio .avatar {
+  position: absolute;
   width: 361px;
   height: 354px;
-  box-shadow: 0 0 15px 15px var(--transparent-black);
-  border-radius: 34px;
-  opacity: 0.74;
+  top: 16px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.portfolio .cards {
+  position: absolute;
+  width: 1745px;
+  height: 1591px;
+  top: 868px;
+  left: 641px;
+}
+
+.portfolio .icons {
+  position: absolute;
+  width: 1061px;
+  height: 1367px;
+  top: 895px;
+  left: 666px;
+}
+
+.portfolio .card-text {
+  left: 816px;
+  position: absolute;
+  width: 580px;
+  top: 902px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #e7edee;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .text-wrapper {
+  left: 1751px;
+  position: absolute;
+  width: 580px;
+  top: 902px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #e7edee;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .main-subtext {
+  position: absolute;
+  width: 703px;
+  top: 534px;
+  left: 1179px;
+  text-shadow: 2px 2px 10px #00000040;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #e7edee;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .skill-text {
+  left: 711px;
+  position: absolute;
+  width: 703px;
+  top: 709px;
+  text-shadow: 2px 2px 10px #00000040;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #e7edee;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .skill-text-2 {
+  left: 1632px;
+  position: absolute;
+  width: 703px;
+  top: 709px;
+  text-shadow: 2px 2px 10px #00000040;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #e7edee;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
