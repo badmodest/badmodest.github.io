@@ -1,0 +1,118 @@
+.mac-book-pro-16-1 {
+  background-color: var(--black);
+  overflow: hidden;
+  position: relative;
+}
+.frame-1 {
+  padding: 107px 0 0;
+  position: absolute;
+  right: -73px;
+  top: -125px;
+}
+.background {
+  margin-left: -519px;
+  padding: 0 430px 0 493px;
+  position: relative;
+}
+.flex-wrapper-one {
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url("https://static.overlay-tech.com/assets/db043b4d-61fa-4148-b8e7-9359e36c63fb.png");
+  padding: 0 98px 945px 810px;
+  position: relative;
+}
+.ellipse-1 {
+  width: 1104px;
+  height: 1106px;
+  background: linear-gradient(
+    180deg,
+    var(--transparent-indigo) 0%,
+    var(--transparent-indigo-2) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.5;
+  position: relative;
+  filter: blur(200px);
+}
+.ellipse-2 {
+  width: 931px;
+  height: 933px;
+  background: linear-gradient(
+    180deg,
+    var(--transparent-indigo) 0%,
+    var(--transparent-indigo-2) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.7;
+  position: absolute;
+  left: 198px;
+  top: 310px;
+  filter: blur(200px);
+}
+.ellipse-2-two {
+  width: 931px;
+  height: 933px;
+  background: linear-gradient(
+    180deg,
+    var(--transparent-indigo) 0%,
+    var(--transparent-indigo-2) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.7;
+  position: absolute;
+  right: 0;
+  top: 605px;
+  filter: blur(200px);
+}
+.ellipse-3 {
+  width: 931px;
+  height: 933px;
+  background: linear-gradient(
+    180deg,
+    var(--transparent-indigo) 0%,
+    var(--transparent-indigo-2) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  top: 49px;
+  filter: blur(200px);
+}
+.bio {
+  background-color: rgba(41, 37, 55, 0.6);
+  border-radius: 50px;
+  padding: 38px 55px 66px 59px;
+  box-shadow: -10px 10px 30px 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  right: 157px;
+  top: 185px;
+  backdrop-filter: blur(40px);
+}
+.bio-text {
+  height: 282px;
+  width: 1175px;
+  color: var(--lavender);
+  display: flex;
+  font-family: var(--source-sans-pro-42-bold-family);
+  font-size: var(--source-sans-pro-42-bold-size);
+  font-weight: var(--source-sans-pro-42-bold-weight);
+  line-height: var(--source-sans-pro-42-bold-line-height);
+}
+.profile {
+  background-color: rgba(41, 37, 55, 0.6);
+  border-radius: 50px;
+  padding: 16px 13px 16px 12px;
+  box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 110px;
+  top: 185px;
+  backdrop-filter: blur(40px);
+}
+.avatar {
+  width: 361px;
+  height: 354px;
+  box-shadow: 0 0 15px 15px var(--transparent-black);
+  border-radius: 34px;
+  opacity: 0.74;
+}
